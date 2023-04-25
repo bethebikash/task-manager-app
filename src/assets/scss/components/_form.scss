@@ -1,0 +1,21 @@
+.form {
+  .btn-add {
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: $primary;
+    color: $white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+    &:hover {
+      background-color: adjust-hue($color: $primary, $degrees: 10);
+    }
+  }
+}
+
+input[type='checkbox'] {
+  transform: scale(1.5);
+  padding: 20px;
+}

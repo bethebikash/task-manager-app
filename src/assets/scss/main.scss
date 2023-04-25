@@ -1,0 +1,15 @@
+// font
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// variables
+@import 'abstracts/variables';
+
+// frameworks imports
+@import '~bootstrap/scss/bootstrap';
+
+// custom css
+@import 'base/base';
+@import 'base/app';
+@import 'components/header';
+@import 'components/form';
+@import 'abstracts/utility';
