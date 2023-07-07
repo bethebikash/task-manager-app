@@ -97,7 +97,7 @@ const TaskForm = () => {
           </select>
         </div>
         <div className="col-md-6 mt-3">
-          <label htmlFor='status' className='text-gray-700 mb-1 fs-regular'>Staues</label>
+          <label htmlFor='status' className='text-gray-700 mb-1 fs-regular'>Status</label>
           <div className='d-flex align-items-center gap-2 pl-1'>
             <input className="form-control-sm" type="checkbox" name="status" id="status" disabled={!task.id}
               checked={task.status} onChange={(e) => handleValueChange(e.target.checked, e.target.name)} />
